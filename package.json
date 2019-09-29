@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "concurrently \"cd project && cd back-end && node server.js\" \"cd project && npm start\"",
-    "build": "cd project && npm run build"
+    "build": "serve -s build"
   },
   "author": "",
   "license": "ISC"
